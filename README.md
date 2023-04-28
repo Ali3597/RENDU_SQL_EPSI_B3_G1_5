@@ -109,7 +109,7 @@ Le premier index est sur la clé étrangère category_id présente dans la table
 
 **Query avant la création de l'index :** 
 
-![](.\png\index_category_avant.png)
+![](./png/index_category_avant.png)
 
 **Commande de création de l'index :**
 
@@ -119,7 +119,7 @@ CREATE INDEX idx_category  ON ali_steve.product(category_id)
 
 **Query après création de l'index :**
 
-![](.\png\index_category_apres.png)
+![](./png/index_category_apres.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -127,7 +127,7 @@ Le deuxième  index est sur le champs status de la table product
 
 **Query avant la  création de l'index :**
 
-![](.\png\index_status_avant.png)
+![](./png/index_status_avant.png)
 
 **Commande de création de l'index :**
 
@@ -137,7 +137,7 @@ CREATE INDEX idx_status ON ali_steve.order(status)
 
 **Query après la création de l'index :**
 
-![](.\png\index_status_apres.png)
+![](./png/index_status_apres.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -145,7 +145,7 @@ Le troisième index est sur le champs type de la table product .
 
 **Query avant la création de l'index :**
 
-![](.\png\index_type_avant.png)
+![](./png/index_type_avant.png)
 
 
 
@@ -157,7 +157,7 @@ CREATE INDEX idx_type  ON ali_steve.product(type)
 
 **Query après la création de l'index:**
 
-![](.\png\index_type_apres.png)
+![](./png/index_type_apres.png)
 
 <div style="page-break-after: always;"></div>
 
