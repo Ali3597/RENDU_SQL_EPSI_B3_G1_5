@@ -10,7 +10,7 @@ Et le dump de notre base de donnée est aussi dans le fichier  sql_dump.sql.
 
 Voila le schéma de la base de donnée :
 
-![](C:\Users\ali_s\Documents\Ecole\sql\devoir photo\bdd.png)
+![](./png/bdd.png)
 
 Pour remplir notre base données  nous avons utilisé le langage python et la librairie faker. Le script utilisé pour la génération de données est dans le fichier  create_data.py
 
